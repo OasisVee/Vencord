@@ -25,3 +25,6 @@
 [aria-label="Buy Boosts to help unlock Level 1 perks!"] {
   display: none;
 }
+[aria-label="This server has unlocked all Boosting perks!"] {
+  display: none;
+}
