@@ -1,36 +1,57 @@
 [aria-label="Hide Member List"] {
   display: none;
 }
+
 [aria-label="Notification Settings"] {
   display: none;
 }
+
 [aria-label="Send a gift"] {
   display: none;
 }
+
 [aria-label="Open sticker picker"] {
   display: none;
 }
+
 [aria-label="Help"] {
   display: none;
 }
+
 [aria-label="Explore Discoverable Servers"] {
   display: none;
 }
+
+[class^="channel_"] > div > [href="/store"],
+[class^="channel_"] > div > [href="/shop"]
+{
+  display: none !important;
+}
+
+[class^="listItem_"] > div > [class="wrapperSimple_a34580 wrapper__3af0b"] {
+  display: none;
+}
+
 [aria-label="Buy Boosts to help unlock Level 3 perks!"] {
   display: none;
 }
+
 [aria-label="Buy Boosts to help unlock Level 2 perks!"] {
   display: none;
 }
+
 [aria-label="Buy Boosts to help unlock Level 1 perks!"] {
   display: none;
 }
+
 [aria-label="This server has unlocked all Boosting perks!"] {
   display: none;
 }
+
 [class="voiceChannelsButton__46c37"] {
   display: none;
 }
+
 [class="premiumTab__57bdc item__48dda themed_b957e8"] {
   display: none;
 }
