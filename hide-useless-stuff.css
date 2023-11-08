@@ -1,66 +1,58 @@
+/* member list in title bar */
 [aria-label="Hide Member List"] {
   display: none;
 }
-
+/* notif in title bar */
 [aria-label="Notification Settings"] {
   display: none;
 }
-
+/* gift in message bar */
 [aria-label="Send a gift"] {
   display: none;
 }
-
+/* sticker in message bar */
 [aria-label="Open sticker picker"] {
   display: none;
 }
-
+/* bug report in title bar */
 [aria-label="Help"] {
   display: none;
 }
-
+/* removes explorable button */
 [aria-label="Explore Discoverable Servers"] {
   display: none;
 }
-
+/* gets rid of the annoying part of the explorable button that persists even though its gone, aka the hover */
+[class^="listItem_"] > div > [class="wrapperSimple_a34580 wrapper__3af0b"] {
+  display: none;
+}
+/* in home menu it gets rid of the two below in friend part */
 [class^="channel_"] > div > [href="/store"],
 [class^="channel_"] > div > [href="/shop"]
 {
   display: none !important;
 }
-
-[class^="listItem_"] > div > [class="wrapperSimple_a34580 wrapper__3af0b"] {
-  display: none;
-}
-
-[aria-label="Buy Boosts to help unlock Level 3 perks!"] {
-  display: none;
-}
-
-[aria-label="Buy Boosts to help unlock Level 2 perks!"] {
-  display: none;
-}
-
-[aria-label="Buy Boosts to help unlock Level 1 perks!"] {
-  display: none;
-}
-
+/* following gets rid of the server boost part in the channels menu */
+[aria-label="Buy Boosts to help unlock Level 3 perks!"],
+[aria-label="Buy Boosts to help unlock Level 2 perks!"], 
+[aria-label="Buy Boosts to help unlock Level 1 perks!"],
 [aria-label="This server has unlocked all Boosting perks!"] {
   display: none;
 }
-
+/* gets rid of the show all button at the bottom of channels */
 [class="voiceChannelsButton__46c37"] {
   display: none;
 }
-
+/* gets rid of nitro option in settings */
 [class="premiumTab__57bdc item__48dda themed_b957e8"] {
   display: none;
 }
-
+/* gets rid of the game activiy button in user area */
 [class="flex_f5fbb7 horizontal__992f6 justifyStart__42744 alignStretch_e239ef noWrap__5c413"] > [aria-label="Disable Game Activity"] 
 {
   display: none !important;
 }
-
+/* following gets rid of the options it says in settings */
 [aria-label="Gift Inventory"],
 [aria-label="Subscriptions"],
 [aria-label="Gift Inventory"] {
