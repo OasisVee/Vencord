@@ -22,9 +22,9 @@
 [aria-label="Explore Discoverable Servers"] {
   display: none;
 }
-/* gets rid of the annoying part of the explorable button that persists even though its gone, aka the hover */
-[class^="listItem_"] > div > [class="wrapperSimple_a34580 wrapper__3af0b"] {
-  display: none;
+/* gets rid of the annoying part of the explorable button that persists even though its gone, aka the hover */ 
+[ class ^= "listItem_" ]  >  div  >  [ class = "wrapperSimple_a34580 wrapper__3af0b" ] { 
+  display :  none; 
 }
 /* in home menu it gets rid of the two below in friend part */
 [class^="channel_"] > div > [href="/store"],
