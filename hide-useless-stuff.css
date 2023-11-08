@@ -55,3 +55,14 @@
 [class="premiumTab__57bdc item__48dda themed_b957e8"] {
   display: none;
 }
+
+[class="flex_f5fbb7 horizontal__992f6 justifyStart__42744 alignStretch_e239ef noWrap__5c413"] > [aria-label="Disable Game Activity"] 
+{
+  display: none !important;
+}
+
+[aria-label="Gift Inventory"],
+[aria-label="Subscriptions"],
+[aria-label="Gift Inventory"] {
+  display: none;
+}
