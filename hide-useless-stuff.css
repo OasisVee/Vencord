@@ -54,3 +54,7 @@
 [aria-label="Gift Inventory"] {
   display: none;
 }
+/* hide the shop popup when clicking avatar in user area */
+[class="container__0ec3c"] {
+  display: none;
+}
